@@ -1,0 +1,11 @@
+Windows, macOS, Linux 마다 마우스와 키보드를 동작시키는 방법이 다르기 때문에
+이러한 경우를 대비하여 크로스 플랫폼(cross-platform) 파이썬 모듈인 PyAutoGUI를 사용한다.
+
+PyWin32 는 Windows 전용 모듈이다.
+PyautoGUI를 사용하면, 동작하는 OS 따라서 세부적으로 아래의 모듈이 동작한다
+
+- Windows : Win32 API
+- macOS : Cocoa API에 접근하기 위해 pyobjc
+- Linux 에서 X11, X Window System 에 접근하기 위해 Xlib
+
+https://codetorial.net/pyautogui/reference.html
